@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="felxcenter">
+        <div id="fondo" class="felxcenter">
+            <div id="barra" class="flexcenter">
+               <a href="javascript:open()"><img src="img/menu.png" alt=""></a>
+               <a href="javascript:abrir()"><img src="img/folder.png" alt=""></a> 
+               <h5>19/05/2022</h5>
+            </div>
+        </div>
+    </div>
+    <div class="ventana" id="vent">
+        <div id="cerrar"> <a href="javascript:cerrar()"><img src="img/error.png" alt=""></a></div>
+    </div>
+
+    <div class="menu" id="men">
+        <ul>
+         <li>Apagar</li>
+         <li>Reiniciar</li>
+         <li>Suspender</li>
+        </ul>
+    </div>
+
+    <script>
+         
+        function abrir(){
+            document.getElementById("vent").style.display="block";
+        }
+
+        function cerrar(){
+            document.getElementById("vent").style.display="none";
+        }
+
+        function open(){
+            document.getElementById("men").style.display="block";
+        }
+
+
+    </script>
+</body>
+</html>

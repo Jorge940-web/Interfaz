@@ -1,0 +1,76 @@
+.felxcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondo{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(https://w.wallhaven.cc/full/wq/wallhaven-wqve97.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#barra{
+    width: 1920px;
+    height: 60px;
+    background-color: slategrey;
+    position: absolute;
+    top: 1055px;
+
+
+    overflow: hidden;
+}
+
+.flexcenter img{
+    width: 50px;
+    float: left;
+    margin: 8px 5px 1px 1px;
+}
+
+h5{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 1700px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.ventana{
+    background-color: gray;
+    width: 30%;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    display: none;
+}
+
+#cerrar{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+.menu{
+    background-color: slategrey;
+    width: 10%;
+    padding: 33px;
+    min-height: 250px;
+    position: absolute;
+    left: 6.9%;
+    top: 69%;
+    display: none;
+}
+
+.menu{
+    font-family: monospace;
+    font-size: 20px;
+    list-style: none;
+    color: aliceblue;
+}
